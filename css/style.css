@@ -1,0 +1,677 @@
+
+
+
+@font-face {
+    font-family: digital;
+    src:url('../fonts/digital-7-webfont.woff2') format('woff2'),
+        url('../fonts/digital-7-webfont.woff') format('woff'),
+        url("../fonts/digital-7.ttf") format('truetype');
+  } 
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 98vmax;
+    height: 1vmax; */
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: rgb(170, 165, 121);
+    overflow: hidden;
+   
+}
+
+.main{
+    height: 45.8vmax;
+    width: 100vmax;
+    background-color: red;
+    position: relative;
+    overflow: hidden;
+}
+
+.header{
+    border: 1px solid black;
+    background-color: aqua;
+    height: 3vmax;
+    width: 100vmax; 
+    position: absolute;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+}
+
+#ins{
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+#text{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: blue;
+    /* padding: 1%; */
+}
+
+.footer{
+    position: absolute;
+    align-items: center;
+    top: 3vmax;
+    height: 42.8vmax;
+    width: 100%;
+    background-color: rgb(226, 239, 33);
+    overflow: hidden;
+}
+
+#experiment{
+    /* top: 8%; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: blueviolet;
+    /* border: 1px solid black; */
+    /* visibility: hidden; */
+    overflow: hidden;
+}
+
+#start{
+    position:absolute;
+    border-radius: 10%;
+    padding: 0.5%;
+    font-size: 1vw;
+    left: 90%;
+    top: 90%;
+    border: none;
+    background-color: rgb(0, 244, 16);
+    box-shadow: 1px 1px 0px 0.5px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#start:active{
+    scale: 0.9;
+    transition: all ease 0.1s;
+}
+
+
+
+
+/* ******************************************       Equipments   ************************************** */
+
+#workingtable{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+#stp1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#estand{
+    position: absolute;
+    height: 10%;
+    width: 27%;
+    top: 82%;
+    left: 70%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#egg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.eggs{
+    position: absolute;
+    height: 22.5%;
+    width: 7.4%;
+    top: 69%;
+    left: 71.2%;
+    transition: all;
+    transition-duration: 1s;
+    /* border: 1px solid black; */
+}
+
+.alleggs{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#egg2{
+    left: 79.4%;
+}
+
+#egg3{
+    left: 87.6%;
+}
+
+.eg{
+    position: absolute;
+    height: 10%;
+    width: 33%;
+    top: 0%;
+    left: 34%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#beakerdiv{
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    top: 67%;
+    left: 58%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#beaker{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#balbumin{
+    position: absolute;
+    /* height: 70%; */
+    height: 0%;
+    width: 83%;
+    bottom: 0%;
+    left: 14.2%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#measuringdiv{
+    position: absolute;
+    height: 35%;
+    width: 6%;
+    top: 58%;
+    left: 50%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#mcyl{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#msol{
+    position: absolute;
+    /* height: 42%; */
+    height: 0%;
+    width: 55%;
+    bottom: 3%;
+    left: 23%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#ttsback{
+    position: absolute;
+    height: 35%;
+    width: 34.5%;
+    bottom: 5%;
+    left: 5%;
+    transition: all;
+    transition-duration: 1s;
+
+}
+
+#ttsfront{
+    position: absolute;
+    height: 5%;
+    top: 63.7%;
+    left: 3.9%;
+    width: 34%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.ttube{
+    position: absolute;
+    height: 55%;
+    width: 3.5%;
+    bottom: 8%;
+    left: 8%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#tt2{
+    left: 13%;
+}
+
+#tt3{
+    left: 18%;
+}
+
+#tt4{
+    left: 23%;
+}
+
+#tt5{
+    left: 28%;
+}
+
+#tt6{
+    left: 33%;
+}
+
+.albumin{
+    position: absolute;
+    /* height: 43%; */
+    height: 0%;
+    width: 100%;
+    bottom: 0%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.ttubes{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.nametext{
+    position: absolute;
+    font-size: 2vw;
+    color: white;
+    top: 40%;
+    left: 20%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#falbumin{
+    position: absolute;
+    /* height: 45%; */
+    height: 0%;
+    width: 0.2%;
+    left: 63.9%;
+    bottom: 49%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#falbumin2{
+    position: absolute;
+    /* height: 83.8%; */
+    height: 0%;
+    width: 0.2%;
+    left: 9.9%;
+    /* bottom: 10%; */
+    bottom: 93.8%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+/* **************************************************    WATER BATH ********************************************/
+
+#wbath1{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    top: 45%;
+    /* left: 55%; */
+    left: 150%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+#wbath{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    top: 45%;
+    /* left: 55%; */
+    left: 150%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+
+
+}
+
+/* #wbath{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+
+} */
+
+#wbathfront{
+    position: absolute;
+    height: 91%;
+    width: 96.2%;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+#plus{
+    position: absolute;
+    height: 10%;
+    width: 6%;
+    top: 40%;
+    left: 70%;
+    border-radius: 10%;
+    background-color: rgb(13, 255, 0);
+    box-shadow: 1px 1px 0px 0.5px;
+    font-weight: 1000;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#minus{
+    position: absolute;
+    height: 10%;
+    width: 6%;
+    top: 60%;
+    left: 70%;
+    border-radius: 10%;
+    background-color: rgb(13, 255, 0);
+    box-shadow: 1px 1px 0px 0.5px;
+    font-weight: 1000;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#plus:active,#minus:active{
+    scale: 0.95;
+}
+
+#screen{
+    position: absolute;
+    height: 28%;
+    width: 27.5%;
+    top: 40.5%;
+    left: 15.6%;
+    opacity: 0%;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#temp{
+    position: absolute;
+    font-family: digital;
+    font-weight: 100;
+    font-size: 3vw;
+    left: 40%;
+    top: 5%;
+    color: red;
+    transition: all;
+    transition-duration: 1s;
+    animation: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: 0;
+}
+
+#celcius{
+    position: absolute;
+    font-family: digital;
+    font-weight: 100;
+    font-size: 3vw;
+    right: 5%;
+    top: 5%;
+    color: red;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#timer{
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    bottom: 0%;
+    font-family: digital;
+    color: greenyellow;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#min{
+    position: absolute;
+    right: 55%;
+    font-size: 2.8vw;
+    font-weight: 100;
+    transition: all;
+    transition-duration: 1s;
+    animation: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: 0;
+}
+
+#collon{
+    position: absolute;
+    right: 40%;
+    font-size: 2.8vw;
+    font-weight: 100;
+    transition: all;
+    transition-duration: 1s;
+}
+
+#sec{
+    position: absolute;
+    right: 5%;
+    font-size: 2.8vw;
+    font-weight: 100;
+    transition: all;
+    transition-duration: 1s;
+    animation: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: 0;
+}
+
+#temperature{
+    position: absolute;
+    height: 10%;
+    width: 8%;
+    top: 43%;
+    left: 50%;
+    border-radius: 10%;
+    background-color: rgb(255, 47, 0);
+    box-shadow: 0.1px 0.1px 0px 0.5px;
+    font-weight: 500;
+    font-size: 0.8vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+#mm{
+    position: absolute;
+    height: 7%;
+    width: 7%;
+    top: 78%;
+    left: 21%;
+    border-radius: 5%;
+    background-color: greenyellow;
+    box-shadow: 0.1px 0.1px 0px 0.5px;
+    font-weight: 300;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: white; */
+}
+
+#ss{
+    position: absolute;
+    height: 7%;
+    width: 7%;
+    top: 78%;
+    left: 35%;
+    border-radius: 5%;
+    background-color: greenyellow;
+    box-shadow: 0.1px 0.1px 0px 0.5px;
+    font-weight: 300;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: white; */
+}
+
+#temperature:active,#ss:active,#mm:active,#onoff:active{
+    scale: 0.95;
+}
+
+#onoff{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    width: 8%;
+    height: 20%;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    font-weight: 700;
+    box-shadow: 1px 1px 0px 0px;
+    border-radius: 5%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(255, 255, 255); */
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(135, 135, 135));
+    /* background-image: radial-gradient(rgb(255, 215, 15),rgb(255, 122, 6)); */
+}
+
+#onofftext{
+    position: absolute;
+    font-size: 1vw;
+    font-weight: 600;
+    top: 72%;
+    left: 84%;
+}
+
+
+
+
+
+
+
+
+
+
+/* *******************************************************   Table   ****************************************************** */
+
+
+#tbl1{
+    position: absolute;
+    border: 1px solid black;
+    background-color: aliceblue;
+    height:50%;
+    width: 60%;
+    top: 5%;
+    left: 38%;
+    transition: all;
+    transition-duration: 1s;
+    visibility: hidden;
+}
+
+td,th{
+    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: separate;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2vw;
+}
+
+td{
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+#valbutton{
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    height: 80%;
+    width: 50%;
+    font-size: 1.3vw;
+    border-radius: 8%;
+    border: 1%;
+    box-shadow: 1px 1px 0px 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#valbutton:active{
+    scale: 0.9;
+}
+
+#inference{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    background-color: white;
+    transition: all;
+    transition-duration: 1s;
+    text-align: center;
+
+}
+
+#iheader{
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+}
+
+#itext{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+
+
+
+
+
+@keyframes blinking{
+    0%{opacity: 0%;}
+    50%{opacity: 100%;}
+    100%{opacity: 0%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
