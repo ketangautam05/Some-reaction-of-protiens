@@ -10,12 +10,35 @@ let egg3 = document.querySelector("#egg3")
 let falbumin = document.querySelector("#falbumin")
 let balbumin = document.querySelector("#balbumin")
 
+let wegg1 = document.querySelector("#wegg1")
+let wegg2 = document.querySelector("#wegg2")
+let wegg3 = document.querySelector("#wegg3")
 
 
 let eggselector = egg1
 let eggbreak = eg1
 let bliquidheight = "20%"
 let bbottom = "4%"
+
+
+function egg1check(){
+    if(eggselector==egg1){
+        breakegg()
+    }
+}
+
+function egg2check(){
+    if(eggselector==egg2){
+        breakegg()
+    }
+}
+
+function egg3check(){
+    if(eggselector==egg3){
+        breakegg()
+    }
+}
+
 
 
 function breakegg(){

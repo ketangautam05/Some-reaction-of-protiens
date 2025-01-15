@@ -40,16 +40,27 @@ function start(){
         },1000)
 
     }
+    else if(f==100){
+        f=101
+        startbutton.style.visibility="hidden"
+        wbath.style.left="150%"
+        wbath1.style.left="150%"
+        setTimeout(function(){
+            ins.innerText=inschange
+            ttselector=tt1
+            titselector.innerHTML='<img class="ttubes" id="tit1" onclick="placettube()" src="images/test-tube.png" alt="">'
+        },1000)
+    }
     else if(f==50){
         f=60
         ins.innerText="Thank You..."
         startbutton.style.visibility="hidden"
+        tbl1.style.visibility="visible"
         inference.style.top="0%"
         tbl1.style.left="20%"
         tbl1.style.top="30%"
 
     }
-
 
 
 
